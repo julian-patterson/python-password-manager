@@ -10,3 +10,6 @@ Run the main.py using Python3 & enter neccessary logins/passwords.
 
 ### Note:
 All passwords are stored in passwords.txt in the same folder
+
+### Changing the User Password: 
+In order to change the user password, edit main.py and change the password variable

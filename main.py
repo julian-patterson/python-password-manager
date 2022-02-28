@@ -1,6 +1,7 @@
 from time import sleep
 from tkinter import *
 
+password = "password"
 fw = open("passwords.txt", 'at')
 fr = open("passwords.txt", 'rt')
 i = 2
@@ -8,7 +9,7 @@ i = 2
 
 while i >= 0:
     authentication = input("Login Password Authentication: ")
-    if authentication == "password":
+    if authentication == password:
         while True:
 
             services = input('What service would you like to access: \n 1)New Login \n 2)View Logins  \n 3)Log Out \n Please enter the number: ') 
